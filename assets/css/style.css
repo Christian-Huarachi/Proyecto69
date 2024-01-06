@@ -1,3 +1,7 @@
 *{
     box-sizing: border-box;
 }
+.header{
+    border: solid 5px red;
+    height: 400px;
+}
