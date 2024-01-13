@@ -4,22 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <header class="header">
-        <nav>
-            <ul>
-                <li></li>
+        <nav class="nav">
+            <div class="logo-contenido">
+                <div class="logo-img"></div>
+            </div>
+            <ul class="item-list">
+                <li><a href="#quienes_somos">QUIENES SOMOS</a></li>
+                <li><a href="#nuestros_valores">NUESTROS VALORES</a></li>
+                <li><a href="#contacto">CONTACTO</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <section>
-
+    <main class="main">
+        <section class="contenido-completo">
+            <img class="portada" src="assets/img/portada.jpg" alt="">
         </section>
-    </main>
-    <footer>
+        <section class="contenido-centrado">
+            <h2 class="centrar" id="quienes_somos">QUIENES SOMOS</h2>
+            <p>
+                Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original.
+            </p>
+            <h2 class="centrar" id="nuestros_valores">NUESTROS VALORES</h2>
+            <p>
+                Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original.
+            </p>
+            <h2 class="centrar" id="contacto">CONTACTO</h2>
+            <div class="contenido-form">
+                <form>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="asunto">Asunto:</label>
+                    <input type="text" id="asunto" name="asunto" required>
+                
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="6" required></textarea>
+                
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </section>
         
+    </main>
+    <footer class="footer centrar">
+        <p class="footer-p">
+            ©2024 derechos reservados a LOS PIBES S.A
+        </p>
     </footer>
 </body>
 </html>
